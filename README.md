@@ -20,21 +20,31 @@ To detect variances and dynamics in room CO2 concentration, multiple sensors are
 ![Sensor Network](planning/network.png)
 
 
-## TO DO
+## NEWS
+- sensors have arrived
+
+## TODO / Progress
 
 ### Team
 - ME
 - SH
-- ...
+- AH
+- ... (anybody is welcome)
+
+## Outline
 
 ### Sensor
-- NDIR
+- NDIR: Sensirion SCD30 (they even provide a nice example using bluetooth: https://developer.sensirion.com/tutorials/create-your-own-co2-monitor/)
 
 ### Hardware
-- RPi, Arduino, ESP8266
+- RPi, Arduino, ESP8266, NodeMCU,...
+- Arduino Uno
 
 ### Software
 - C++, Python
+- RGB-LED output
+- OLED output
+- sensor input
 
 ### Housing
 - 3D printed
@@ -42,5 +52,9 @@ To detect variances and dynamics in room CO2 concentration, multiple sensors are
 ### Testing
 - guerilla
 
+### UX
+- nobody will monitor the screen all the time. Exploring other means of communication (audio, visual, haptic)
+- fun housing that looks like a tiny house. windows open with servo(s). could use i2c servo driver
 
+## Info
 (all images created with draw.io)
